@@ -17,6 +17,16 @@ export interface TranslationContent {
     items: Array<{
       title: string;
       description: string;
+      image: string; // Added image field to types
+    }>;
+  };
+  testimonials: {
+    title: string;
+    items: Array<{
+      name: string;
+      role: string;
+      text: string;
+      avatar: string;
     }>;
   };
   trust: {

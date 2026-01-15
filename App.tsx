@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Benefits } from './components/Benefits';
+import { Testimonials } from './components/Testimonials';
 import { TrustSection } from './components/TrustSection';
 import { Footer } from './components/Footer';
 import { TRANSLATIONS } from './constants';
@@ -49,6 +50,7 @@ const App: React.FC = () => {
         <main className="flex-grow">
           <Hero content={content.hero} />
           <Benefits content={content.benefits} />
+          <Testimonials content={content.testimonials} />
           <TrustSection content={content.trust} />
         </main>
 
